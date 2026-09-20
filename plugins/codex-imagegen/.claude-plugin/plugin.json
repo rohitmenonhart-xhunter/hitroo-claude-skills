@@ -1,0 +1,9 @@
+{
+  "name": "codex-imagegen",
+  "version": "1.0.0",
+  "description": "Generate real pictures — illustrations, hero art, icons, transparent PNG cut-outs — with Codex's image generation tool from a written brief, then verify and size them for the web.",
+  "author": { "name": "Hitroo", "url": "https://github.com/rohitmenonhart-xhunter" },
+  "repository": "https://github.com/rohitmenonhart-xhunter/hitroo-claude-skills",
+  "license": "MIT",
+  "keywords": ["images", "illustration", "codex", "image-generation", "design", "png", "transparent"]
+}
