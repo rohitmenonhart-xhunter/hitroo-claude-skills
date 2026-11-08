@@ -32,4 +32,4 @@ for (const target of targets) {
     console.log(`installed ${name} → ${dest}`);
   }
 }
-if (!uninstall) console.log("\nDone. Open a new Claude Code session; the skill appears in its list (or type /codex-imagegen).\nAlso works as a Claude Code plugin: claude plugin marketplace add rohitmenonhart-xhunter/hitroo-claude-skills && claude plugin install codex-imagegen@hitroo-skills");
+if (!uninstall) console.log("\nDone. Open a new Claude Code session; the skills appear in its list (or type /codex-imagegen, /claude-computer-use).\nAlso works as Claude Code plugins: claude plugin marketplace add rohitmenonhart-xhunter/hitroo-claude-skills && claude plugin install codex-imagegen@hitroo-skills claude-computer-use@hitroo-skills");

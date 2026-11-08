@@ -1,19 +1,55 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "hitroo-skills",
-  "description": "Hitroo's skills for Claude Code: image generation with Codex, and more to come.",
-  "owner": { "name": "Hitroo", "url": "https://github.com/rohitmenonhart-xhunter" },
+  "description": "Hitroo's skills for Claude Code: image generation with Codex, and Mac computer use through Codex.",
+  "owner": {
+    "name": "Hitroo",
+    "url": "https://github.com/rohitmenonhart-xhunter"
+  },
   "plugins": [
     {
       "name": "codex-imagegen",
       "displayName": "Codex image generation",
       "description": "Generate real pictures — illustrations, hero art, icons, transparent PNG cut-outs — with Codex's image generation tool from a written brief, then verify and size them for the web.",
-      "author": { "name": "Hitroo", "url": "https://github.com/rohitmenonhart-xhunter" },
+      "author": {
+        "name": "Hitroo",
+        "url": "https://github.com/rohitmenonhart-xhunter"
+      },
       "repository": "https://github.com/rohitmenonhart-xhunter/hitroo-claude-skills",
       "license": "MIT",
       "category": "design",
-      "keywords": ["images", "illustration", "codex", "image-generation", "design", "png", "transparent"],
+      "keywords": [
+        "images",
+        "illustration",
+        "codex",
+        "image-generation",
+        "design",
+        "png",
+        "transparent"
+      ],
       "source": "./plugins/codex-imagegen"
+    },
+    {
+      "name": "claude-computer-use",
+      "displayName": "Claude computer use",
+      "description": "Let Claude do things in real Mac apps and websites by handing UI tasks to Codex CLI's Computer Use (screen, mouse and keyboard), with gpt-6.1-sol, high reasoning and Fast mode by default, and browser use switched off.",
+      "author": {
+        "name": "Hitroo",
+        "url": "https://github.com/rohitmenonhart-xhunter"
+      },
+      "repository": "https://github.com/rohitmenonhart-xhunter/hitroo-claude-skills",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "computer-use",
+        "codex",
+        "automation",
+        "macos",
+        "desktop",
+        "ui",
+        "chrome"
+      ],
+      "source": "./plugins/claude-computer-use"
     }
   ]
 }

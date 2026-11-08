@@ -1,10 +1,27 @@
 {
   "name": "@hitroo/claude-skills",
-  "version": "1.0.0",
-  "description": "Install Hitroo's Claude Code skills (codex-imagegen: real pictures from Codex's image generation) into ~/.claude/skills, ~/.codex/skills and ~/.agents/skills with one command.",
-  "bin": { "hitroo-skills": "bin/install.js" },
-  "files": ["bin", "plugins", "install.sh", "README.md"],
-  "repository": { "type": "git", "url": "https://github.com/rohitmenonhart-xhunter/hitroo-claude-skills.git" },
+  "version": "1.1.0",
+  "description": "Install Hitroo's Claude Code skills (codex-imagegen: real pictures from Codex's image generation; claude-computer-use: Mac apps and websites driven through Codex Computer Use) into ~/.claude/skills, ~/.codex/skills and ~/.agents/skills with one command.",
+  "bin": {
+    "hitroo-skills": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "plugins",
+    "install.sh",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohitmenonhart-xhunter/hitroo-claude-skills.git"
+  },
   "license": "MIT",
-  "keywords": ["claude-code", "skill", "codex", "image-generation"]
+  "keywords": [
+    "automation",
+    "claude-code",
+    "codex",
+    "computer-use",
+    "image-generation",
+    "skill"
+  ]
 }
