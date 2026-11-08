@@ -1,0 +1,9 @@
+{
+  "name": "claude-computer-use",
+  "version": "1.0.0",
+  "description": "Let Claude Code do things in real Mac apps and websites by handing UI tasks to Codex CLI's Computer Use (screen, mouse and keyboard): gpt-6.1-sol, high reasoning, Fast mode by default, browser use switched off.",
+  "author": { "name": "Hitroo", "url": "https://github.com/rohitmenonhart-xhunter" },
+  "repository": "https://github.com/rohitmenonhart-xhunter/hitroo-claude-skills",
+  "license": "MIT",
+  "keywords": ["computer-use", "codex", "automation", "macos", "desktop", "ui", "chrome"]
+}
